@@ -12,7 +12,7 @@ public class demo1 implements PageProcessor {
 	public void process(Page page) {
 		us.codecraft.webmagic.selector.Html html = page.getHtml();
 		
-		System.out.println(html.get());
+		System.out.print(html.get());
 	}
 
 	public Site getSite() {
